@@ -1,0 +1,199 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card-number {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    text-shadow: 1px 0 2px #000;
+}
+.card-bankname {
+    font-style: italic;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    text-shadow: 1px 0 2px #000;
+}
+.card-validdate .text {
+    padding-right: 10px;
+    font-size: 10px;
+}
+.card-validdate {
+    position: absolute;
+    top: 62%;
+    left: 35%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #040382, #50bdfc, #040382);
+    border-radius: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    transition: 1s;
+    z-index: 1;
+}
+.card {
+    width: 100%;
+    max-width: 360px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.card-banklogo {
+    font-style: italic;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    text-shadow: 1px 0 2px #000;
+}
+.form-content .pay-btn {
+    cursor: pointer;
+    left: 0;
+    width: 100%;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #5d90e2;
+    color: #fefefe;
+    border-radius: 8px;
+}
+.card-chip {
+    position: absolute;
+    top: 25%;
+    left: 50px;
+    width: 65px;
+}
+.form-content .input-wrap label {
+    color: #303030;
+    left: 0;
+    user-select: none;
+    z-index: -1;
+    color: #d8d8d8;
+    transition: all 0.5s ease;
+}
+.form-content .input-wrap {
+    margin: 20px 0;
+    width: 100%;
+    position: relative;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.card-chip-arrow {
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    top: 33%;
+    left: 10px;
+}
+.form-content .input-wrap input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    outline: 0 !important;
+    width: 100%;
+    color: #303030;
+    line-height: 2.35rem;
+    font-size: 1.3rem;
+}
+.card-terms {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    font-size: 10px;
+}
+.card-sticker {
+    width: 77%;
+    height: 34px;
+    background: #ccc;
+    position: absolute;
+    top: 33%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+}
+
+.card-terms p {
+    text-align: justify;
+}
+.card-validdate .text {
+    padding-right: 10px;
+    font-size: 10px;
+}
+.card-type {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ef991a;
+    position: absolute;
+    right: 30px;
+    bottom: 7%;
+}
+.card-whitebar {
+    width: 85%;
+    height: 26px;
+    background: #fff;
+    position: absolute;
+    top: 35%;
+    color: #000;
+    padding-right: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.card-blackbar {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    top: 10%;
+}
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+}
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #040382, #50bdfc, #040382);
+    border-radius: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.card-type1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e4001a;
+    position: absolute;
+    right: 52px;
+    bottom: 7%;
+}
